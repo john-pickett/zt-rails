@@ -1,0 +1,99 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1 {
+  color: #333333 !important;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.navbar {
+  background-color: #add8e6;
+  font-size: 22px;
+  border: none;
+  padding: 15px;
+}
+
+  .navbar img {
+    width: 40%;
+    height: auto;
+    position: relative;
+    top: -8px;
+  }
+
+  .navbar a {
+    color: #333333 !important;
+  }
+
+
+  #timer-box {
+    min-height: 700px;
+    padding-top: 100px;
+    background-image: image-url('app/assets/images/sky.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  #timer {
+    margin: 0 auto;
+    width: 50%;
+    min-height: 400px;
+    padding-top: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+    #timer .minutesSpan {
+      font-size: 78px;
+    }
+
+    #timer .secondsSpan {
+      font-size: 78px;
+    }
+
+    #countdown {
+      min-height: 300px;
+    }
+
+      .timerSpan {
+        font-size: 158px;
+      }
+
+    #time-select {
+      background-color: lightblue;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      height: 25%;
+      font-size: 78px;
+    }
+
+    #reset {
+      display: none;
+    }
+
+  .gray-out {
+    background-color: lightgray !important;
+    color: gray !important;
+  }
+
+  .numbers {
+    font-size: 78px;
+    margin-right: 15px;
+  }
+
+  #counter {
+
+  }
+
+  #tutorial {
+    padding: 20px 100px;
+  }
+
+  .mindfulness {
+    padding: 10px 25px;
+  }
+
+  .first-time {
+    padding: 10px 25px;
+  }
