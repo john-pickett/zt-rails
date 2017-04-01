@@ -33,6 +33,7 @@ $('.ion-ios-minus').click(function(){
 
 var insertTime = function(){
   $('.numbers').html(meditateMinutes + ":" + meditateSeconds);
+  console.log('hello!!');
 };
 
 // if #start is showing, click starts meditating
